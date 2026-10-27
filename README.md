@@ -6,10 +6,10 @@ Stable hovering drone using RL.
 
 ## Tasks
 
-1. Understand Pufferlib and Drone example environment
+1. Understand Pufferlib and drone example environment
 2. Figure out how to determine pyhsical parameters of drone (Ixx, Iyy, ...)
-3. Understand Betaflight  -> Need motor controll, custom elrs packets
-4. Understand ELRS        -> Drone <-> PC communication, Python elrs driver, (cheaper RX as TX)
+3. Understand Betaflight  -> need motor controll, custom elrs packets
+4. Understand ELRS        -> drone <-> PC communication, Python elrs driver, (cheaper RX as TX)
 
 ## Links
 
