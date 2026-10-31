@@ -31,4 +31,5 @@ Stable hovering drone using RL.
 
 ### Interesting Papers
 
-- [AI-IO (inertial odometry)](https://csfalpha.github.io/AI-IO.github.io/)
+- [AI-IO: An Aerodynamics-Inspired Real-Time Inertial Odometry for
+Quadrotors](https://csfalpha.github.io/AI-IO.github.io/)
