@@ -7,7 +7,7 @@ Stable hovering drone using RL.
 ## Tasks
 
 1. Understand Pufferlib and drone example environment
-2. Figure out how to determine pyhsical parameters of drone (Ixx, Iyy, ...)
+2. Figure out how to determine physical parameters of drone (Ixx, Iyy, ...)
 3. Understand Betaflight: need motor controll, custom elrs packets
 4. Understand ELRS: drone <-> PC communication, Python elrs driver, (cheaper RX as TX)
 
@@ -23,7 +23,12 @@ Stable hovering drone using RL.
 ### Hardware
 
 - [Meteor75 Pro II](https://betafpv.com/products/meteor75-pro-ii-o4-brushless-whoop-quadcopter?variant=44067834953862)
+- [PI Zero 2W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
 
 ### Info Resources
 
 - [tensaur/drone slides](./references/summit-26.pdf)
+
+### Interesting Papers
+
+- [AI-IO (inertial odometry)](extern/betaflight/src/config/configs/BEFH/BETAFPVG473/)
