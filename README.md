@@ -31,4 +31,4 @@ Stable hovering drone using RL.
 
 ### Interesting Papers
 
-- [AI-IO (inertial odometry)](extern/betaflight/src/config/configs/BEFH/BETAFPVG473/)
+- [AI-IO (inertial odometry)](https://csfalpha.github.io/AI-IO.github.io/)
