@@ -5,7 +5,7 @@ To start, ssh into `login23-g-1.hpc.itc.rwth-aachen.de` which is the only login 
 
 #### Installing ccache (dependency of pufferlib).
 
-We install it into the ~/.local/bin folder
+We install it into the `~/.local/bin` folder
 
     git clone https://github.com/ccache/ccache.git
     cd ccache
@@ -19,7 +19,7 @@ To make `ccache` findable from your shell, you need to add the `~/.local/bin` fo
 
     export PATH="${PATH}:$HOME/.local/bin"
     
-Then source the `~/.zshrc` file to reload it manually.
+Then source the `~/.zshrc` file to reload it manually:
     
     `source ~/.zshrc`
     
@@ -51,7 +51,7 @@ Replace `cluster` with your actual ssh alias or `username@login23-g-1.hpc.itc.rw
     cd pufferlib
     rsync -avP cluster:~/PufferLib/checkpoints/ ./checkpoints/
     
-Compile and run the drone environment locally
+Compile and run the drone environment locally, using the latest checkpoint.
 
     ./build.sh drone --cpu
     ./drone eval latest
